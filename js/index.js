@@ -12,6 +12,7 @@ function error(err) {
     // Handle errors
 };
 $.jribbble.setToken('81840dbdbadc6f1e3e5abc584966342b9904b3bb4221a71eb27dad7980b055ae');
+$.jribbble.setToken('f688ac519289f19ce5cebc1383c15ad5c02bd58205cd83c86cbb0ce09170c1b4');
 
 $.jribbble.shots().then(success, error);
 
